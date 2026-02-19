@@ -1,7 +1,7 @@
 version: v2
-name: quivr-demo-front
+name: odonto-ufro-demo-front
 services:
-- name: quivr-frontend
+- name: odonto-ufro-frontend
   run: ""
   type: web
   instances: 1

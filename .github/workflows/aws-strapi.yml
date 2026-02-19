@@ -8,9 +8,9 @@ on:
 
 env:
   AWS_REGION: eu-west-3
-  ECR_REPOSITORY: quivr-strapi
+  ECR_REPOSITORY: odonto-ufro-strapi
   ECR_REGISTRY: 253053805092.dkr.ecr.eu-west-3.amazonaws.com
-  ECS_CLUSTER: quivr
+  ECS_CLUSTER: odonto-ufro
 
 jobs:
   build_and_push:
@@ -56,9 +56,9 @@ jobs:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           IMAGE_TAG: ${{ github.sha }}
         with:
-          context: ./cms/quivr/
+          context: ./cms/odonto-ufro/
           push: true
-          tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}, ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest, ghcr.io/quivrhq/quivr:latest
+          tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}, ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest, ghcr.io/snakeatd/odonto-ufro:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 

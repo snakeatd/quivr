@@ -1,37 +1,35 @@
-# Quivr - Your Second Brain, Empowered by Generative AI
+# odonto-ufro - Your Second Brain, Empowered by Generative AI
 
 <div align="center">
-    <img src="./logo.png" alt="Quivr-logo" width="30%"  style="border-radius: 50%; padding-bottom: 20px"/>
+    <img src="./logo.png" alt="odonto-ufro-logo" width="30%"  style="border-radius: 50%; padding-bottom: 20px"/>
 </div>
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/HUpRgp2HG8?style=flat)](https://discord.gg/HUpRgp2HG8)
-[![GitHub Repo stars](https://img.shields.io/github/stars/quivrhq/quivr?style=social)](https://github.com/quivrhq/quivr)
+[![GitHub Repo stars](https://img.shields.io/github/stars/snakeatd/odonto-ufro?style=social)](https://github.com/snakeatd/odonto-ufro)
 [![Twitter Follow](https://img.shields.io/twitter/follow/StanGirard?style=social)](https://twitter.com/_StanGirard)
 
-Quivr, your second brain, utilizes the power of GenerativeAI to be your personal assistant ! Think of it as Obsidian, but turbocharged with AI capabilities.
-
-[Roadmap here](https://docs.quivr.app/docs/roadmap)
+odonto-ufro, your second brain, utilizes the power of GenerativeAI to be your personal assistant ! Think of it as Obsidian, but turbocharged with AI capabilities.
 
 ## Key Features 🎯
 
-- **Fast and Efficient**: Designed with speed and efficiency at its core. Quivr ensures rapid access to your data.
+- **Fast and Efficient**: Designed with speed and efficiency at its core. odonto-ufro ensures rapid access to your data.
 - **Secure**: Your data, your control. Always.
 - **OS Compatible**: Ubuntu 22 or newer.
 - **File Compatibility**: Text, Markdown, PDF, Powerpoint, Excel, CSV, Word, Audio, Video
-- **Open Source**: Freedom is beautiful, and so is Quivr. Open source and free to use.
+- **Open Source**: Freedom is beautiful, and so is odonto-ufro. Open source and free to use.
 - **Public/Private**: Share your brains with your users via a public link, or keep them private.
 - **Marketplace**: Share your brains with the world, or use other people's brains to boost your productivity.
-- **Offline Mode**: Quivr works offline, so you can access your data anytime, anywhere.
+- **Offline Mode**: odonto-ufro works offline, so you can access your data anytime, anywhere.
 
 ## Demo Highlights 🎥
 
-https://github.com/quivrhq/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5
+https://github.com/snakeatd/odonto-ufro/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5
 
 ## Getting Started 🚀
 
-You can deploy Quivr to Porter Cloud with one-click:
+You can deploy odonto-ufro to Porter Cloud with one-click:
 
-<a href="https://cloud.porter.run/addons/new?addon_name=quivr" target="_blank">
+<a href="https://cloud.porter.run/addons/new?addon_name=odonto-ufro" target="_blank">
   <img src="https://mintlify.s3-us-west-1.amazonaws.com/porter/images/deploying-applications/deploy-to-porter.svg" alt="Deploy to Porter" style="width: 150px;">
 </a>
 
@@ -63,7 +61,7 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 - **Step 1**: Clone the repository:
 
   ```bash
-  git clone https://github.com/quivrhq/quivr.git && cd quivr
+  git clone https://github.com/snakeatd/odonto-ufro.git && cd odonto-ufro
   ```
 
 - **Step 2**: Copy the `.env.example` files
@@ -101,13 +99,13 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 
 - **Step 5**: Login to the app
 
-  You can now sign in to the app with `admin@quivr.app` & `admin`. You can access the app at [http://localhost:3000/login](http://localhost:3000/login).
+  You can now sign in to the app with `admin@odonto-ufro.app` & `admin`. You can access the app at [http://localhost:3000/login](http://localhost:3000/login).
 
-  You can access Quivr backend API at [http://localhost:5050/docs](http://localhost:5050/docs)
+  You can access odonto-ufro backend API at [http://localhost:5050/docs](http://localhost:5050/docs)
 
   You can access supabase at [http://localhost:54323](http://localhost:54323)
 
-## Updating Quivr 🚀
+## Updating odonto-ufro 🚀
 
 - **Step 1**: Pull the latest changes
 
@@ -125,20 +123,19 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 ## Contributors ✨
 
 Thanks go to these wonderful people:
-<a href="https://github.com/quivrhq/quivr/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=quivrhq/quivr" />
+<a href="https://github.com/snakeatd/odonto-ufro/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=snakeatd/odonto-ufro" />
 </a>
 
 ## Contribute 🤝
 
 Did you get a pull request? Open it, and we'll review it as soon as possible. Check out our project board [here](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
 
-- [Open Issues](https://github.com/quivrhq/quivr/issues)
-- [Open Pull Requests](https://github.com/quivrhq/quivr/pulls)
-- [Good First Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
-- [Frontend Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
-- [Backend Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
-- [Translate](https://docs.quivr.app/docs/Developers/contribution/guidelines#translations)
+- [Open Issues](https://github.com/snakeatd/odonto-ufro/issues)
+- [Open Pull Requests](https://github.com/snakeatd/odonto-ufro/pulls)
+- [Good First Issues](https://github.com/snakeatd/odonto-ufro/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+- [Frontend Issues](https://github.com/snakeatd/odonto-ufro/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
+- [Backend Issues](https://github.com/snakeatd/odonto-ufro/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
 
 ## Partners ❤️
 
@@ -158,4 +155,4 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Stars History 📈
 
-[![Star History Chart](https://api.star-history.com/svg?repos=quivrhq/quivr&type=Timeline)](https://star-history.com/#quivrhq/quivr&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=snakeatd/odonto-ufro&type=Timeline)](https://star-history.com/#snakeatd/odonto-ufro&Timeline)

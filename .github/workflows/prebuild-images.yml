@@ -64,7 +64,7 @@ jobs:
           context: ./backend/
           push: true
           platforms: linux/amd64,linux/arm64
-        #   tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}, ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest, ghcr.io/quivrhq/quivr:latest, stangirard/quivr-backend-prebuilt:latest, stangirard/quivr-backend-prebuilt:${{ env.IMAGE_TAG }}
-          tags: ghcr.io/quivrhq/quivr:latest, stangirard/quivr-backend-prebuilt:latest, stangirard/quivr-backend-prebuilt:${{ env.IMAGE_TAG }}
+        #   tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}, ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest, ghcr.io/snakeatd/odonto-ufro:latest, snakeatd/odonto-ufro-backend-prebuilt:latest, snakeatd/odonto-ufro-backend-prebuilt:${{ env.IMAGE_TAG }}
+          tags: ghcr.io/snakeatd/odonto-ufro:latest, snakeatd/odonto-ufro-backend-prebuilt:latest, snakeatd/odonto-ufro-backend-prebuilt:${{ env.IMAGE_TAG }}
           cache-from: type=gha
           cache-to: type=gha,mode=max

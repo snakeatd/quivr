@@ -1,6 +1,6 @@
-# quivr-core package
+# odonto-ufro-core package
 
-The RAG of Quivr.com
+The RAG of odonto-ufro.
 
 ```
 poetry install -E base

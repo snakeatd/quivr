@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   frontend:
-    image: quivr-frontend-prebuilt
+    image: odonto-ufro-frontend-prebuilt
     pull_policy: never
     build:
       context: frontend
@@ -124,5 +124,5 @@ services:
       - 5555:5555
 
 networks:
-  quivr-network:
+  odonto-ufro-network:
     driver: bridge
