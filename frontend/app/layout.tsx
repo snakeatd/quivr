@@ -10,9 +10,9 @@ import "./globals.css";
 import styles from "./layout.module.scss";
 
 export const metadata = {
-  title: "Quivr - Get a Second Brain with Generative AI",
+  title: "UFRO IA - Asistente Inteligente de la Universidad de La Frontera",
   description:
-    "Quivr is your second brain in the cloud, designed to easily store and retrieve unstructured information.",
+    "Plataforma de IA institucional de la Universidad de La Frontera. Accede al conocimiento universitario con inteligencia artificial.",
 };
 
 const RootLayout = async ({

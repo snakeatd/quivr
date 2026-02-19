@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
 
-import { QuivrLogo } from "@/lib/assets/QuivrLogo";
+import { UfroLogo } from "@/lib/assets/UfroLogo";
 import { useUserSettingsContext } from "@/lib/context/UserSettingsProvider/hooks/useUserSettingsContext";
 import { useAuthModes } from "@/lib/hooks/useAuthModes";
 
@@ -31,11 +31,11 @@ const Main = (): JSX.Element => {
     <div className={styles.login_page_wrapper}>
       <section className={styles.section}>
         <Link href="/" className={styles.logo_link}>
-          <QuivrLogo size={80} color={isDarkMode ? "white" : "black"} />
+          <UfroLogo size={80} color={isDarkMode ? "white" : "primary"} />
         </Link>
         <p className={styles.title}>
           {t("talk_to", { ns: "login" })}{" "}
-          <span className={styles.primary_text}>Quivr</span>
+          <span className={styles.primary_text}>UFRO IA</span>
         </p>
         <div className={styles.form_container}>
           <FormProvider {...methods}>

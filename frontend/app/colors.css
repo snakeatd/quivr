@@ -22,13 +22,13 @@
     --grey-5: #d3d3d3;
     --grey-6: #f5f5f5;
 
-    /* Primary */
-    --primary-0: #6142d4;
-    --primary-1: #d0c6f2;
-    --primary-2: #f5f3fd;
+    /* Primary - UFRO Green */
+    --primary-0: #006633;
+    --primary-1: #d4ebdb;
+    --primary-2: #edf6f0;
 
-    /* Accent */
-    --accent: #13abba;
+    /* Accent - UFRO Gold */
+    --accent: #C8963C;
   
     /* Gold */
     --gold: #b8860b;
