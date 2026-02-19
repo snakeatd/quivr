@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "quivr-core"
+name = "odonto-ufro-core"
 version = "0.0.12"
-description = "Quivr core RAG package"
+description = "odonto-ufro core RAG package"
 authors = []
 readme = "README.md"
-repository = "https://github.com/QuivrHQ/quivr"
+repository = "https://github.com/snakeatd/odonto-ufro"
 
 [tool.poetry.dependencies]
 python = "^3.11,<3.13"
@@ -137,7 +137,7 @@ addopts = "--tb=short -ra -v"
 filterwarnings = ["ignore::DeprecationWarning"]
 markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
-    "base: these tests require quivr-core with extra `base` to be installed",
+    "base: these tests require odonto-ufro-core with extra `base` to be installed",
     "tika: these tests require a tika server to be running",
     "unstructured: these tests require `unstructured` dependency",
 ]

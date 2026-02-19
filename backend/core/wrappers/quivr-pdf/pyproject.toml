@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "quivr-pdf"
+name = "odonto-ufro-pdf"
 version = "0.1.0"
 description = ""
 authors = ["aminediro <amine@quir.app>"]

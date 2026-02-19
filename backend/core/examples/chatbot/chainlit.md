@@ -1,6 +1,6 @@
-# Quivr Chatbot Example
+# odonto-ufro Chatbot Example
 
-This example demonstrates how to create a simple chatbot using Quivr and Chainlit. The chatbot allows users to upload a text file and then ask questions about its content.
+This example demonstrates how to create a simple chatbot using odonto-ufro and Chainlit. The chatbot allows users to upload a text file and then ask questions about its content.
 
 ## Prerequisites
 
@@ -40,6 +40,6 @@ This example demonstrates how to create a simple chatbot using Quivr and Chainli
 
 ## How It Works
 
-The chatbot uses the Quivr library to create a "brain" from the uploaded text file. This brain is then used to answer questions about the file's content. The Chainlit library provides the user interface and handles the chat interactions.
+The chatbot uses the odonto-ufro library to create a "brain" from the uploaded text file. This brain is then used to answer questions about the file's content. The Chainlit library provides the user interface and handles the chat interactions.
 
 Enjoy chatting with your documents!
