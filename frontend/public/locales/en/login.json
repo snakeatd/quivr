@@ -4,9 +4,9 @@
   "errorPasswordMissed": "Please enter your password",
   "magicLink": "Continue with email",
   "errorMailMissed": "Please enter your email address",
-  "talk_to": "Talk to",
-  "restriction_message": "Free users have access to a limited demo of Quivr",
-  "email": "Email address",
+  "talk_to": "Welcome to",
+  "restriction_message": "Exclusive access for the UFRO community. Use your @ufrontera.cl institutional email.",
+  "email": "Institutional email (@ufrontera.cl)",
   "cant_find": "Can't find it ?",
   "try_again": "Try again",
   "check_your_email": {
@@ -14,5 +14,6 @@
     "magic_link": "Magic link",
     "part2": ", check your emails and follow the steps."
   },
-  "login": "Login"
+  "login": "Login",
+  "errorDomainRestricted": "Access is restricted to @ufrontera.cl institutional email addresses."
 }

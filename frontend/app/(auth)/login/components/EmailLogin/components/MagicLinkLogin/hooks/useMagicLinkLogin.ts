@@ -15,11 +15,22 @@ export const useMagicLinkLogin = () => {
 
   const email = watch("email");
 
+  const ALLOWED_DOMAIN = "@ufrontera.cl";
+
   const handleMagicLinkLogin = async () => {
     if (email === "") {
       publish({
         variant: "danger",
         text: t("errorMailMissed"),
+      });
+
+      return;
+    }
+
+    if (!email.endsWith(ALLOWED_DOMAIN)) {
+      publish({
+        variant: "danger",
+        text: t("errorDomainRestricted"),
       });
 
       return;
